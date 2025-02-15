@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>livox_pointcloud_converter</name>
+  <version>0.0.1</version>
+  <description>ROS2 package for converting PointXYZRTLT to PointXYZI</description>
+
+  <maintainer email="marmik18@gmail.com">Marmik Thakkar</maintainer>
+  <license>MIT</license>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>pcl_conversions</depend>
+  <depend>pcl_ros</depend>
+  <depend>libomp-dev</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
