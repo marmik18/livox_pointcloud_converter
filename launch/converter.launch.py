@@ -4,9 +4,9 @@ import launch_ros.actions
 def generate_launch_description():
     return launch.LaunchDescription([
         launch_ros.actions.Node(
-            package='pointcloud_converter',
+            package='livox_pointcloud_converter',
             executable='converter_node',
-            name='pointcloud_converter',
+            name='livox_pointcloud_converter',
             output='screen',
             remappings=[
                 ("input_cloud", "/livox/lidar"),
